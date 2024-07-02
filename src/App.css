@@ -1,0 +1,60 @@
+/* App.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; /* cor de fundo para a página */
+}
+
+.App {
+  text-align: center;
+}
+
+.IMCForm {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* cor de fundo para o formulário */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* sombra para efeito visual */
+}
+
+.IMCForm .form {
+  margin-bottom: 10px;
+
+  label  {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+
+.IMCForm .resultado {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9; /* cor de fundo para o resultado */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.IMCForm button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4caf50; /* cor de fundo para o botão */
+  color: #ffffff; /* cor do texto no botão */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.IMCForm button:hover {
+  background-color: #45a049; /* cor de fundo para o botão ao passar o mouse */
+}
