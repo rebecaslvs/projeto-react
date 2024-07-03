@@ -30,6 +30,11 @@ body {
     display: inline-block;
     text-align: center;
     margin-bottom: 5px;
+    color: black;
+  }
+
+  input {
+    background-color: #fff;
   }
 }
 
